@@ -1,0 +1,76 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f7;
+  height: 100vh;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+}
+/* navbar */
+.navbar {
+  height: 64px;
+  background-color: rgba(93, 100, 111, 0.2);
+}
+.navbar .navbar-brand {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 26px;
+}
+.nav-link {
+  font-size: 16px;
+}
+.nav-link .active {
+  font-weight: 700;
+}
+.navbar a {
+  font-weight: 500;
+  color: rgb(216, 216, 216);
+}
+.navbar a:hover {
+  color: white;
+}
+
+.input {
+  color: #fff;
+  margin: 120px auto 40px;
+  height: 250px;
+  width: 500px;
+  border-radius: 8px;
+  background-color: #5d646f;
+}
+
+.output {
+  color: #fff;
+  padding: 30px;
+  width: 500px;
+  border-radius: 8px;
+  background-color: #5d646f;
+}
+
+h3 {
+  color: #f8b501;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+form input {
+  height: 30px;
+  width: 180px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 15px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+}
+form button {
+  margin: auto;
+  height: 30px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f8b501;
+}
+.tampil {
+  margin-bottom: 0;
+}
